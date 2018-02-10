@@ -31,7 +31,6 @@ class WeatherTableViewController: UITableViewController {
                 print(error)
             }
         }
-
     }
 
     // MARK: - Table view data source
