@@ -90,11 +90,9 @@
 				91E6D788202F3D330007F384 /* API */,
 				91E6D785202F367B0007F384 /* VC */,
 				91E6D784202F36390007F384 /* Models */,
-				91E6D762202F35550007F384 /* AppDelegate.swift */,
 				91E6D766202F35550007F384 /* Main.storyboard */,
 				91E6D769202F35550007F384 /* Assets.xcassets */,
-				91E6D76B202F35550007F384 /* LaunchScreen.storyboard */,
-				91E6D76E202F35550007F384 /* Info.plist */,
+				91E6D793202F98F00007F384 /* Supporting Files */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -133,6 +131,16 @@
 				91E6D78F202F5AC30007F384 /* WeatherAPIClient.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		91E6D793202F98F00007F384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E6D762202F35550007F384 /* AppDelegate.swift */,
+				91E6D76B202F35550007F384 /* LaunchScreen.storyboard */,
+				91E6D76E202F35550007F384 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
