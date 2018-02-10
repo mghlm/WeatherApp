@@ -16,6 +16,7 @@
 		91E6D78A202F3D480007F384 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6D789202F3D480007F384 /* Weather.swift */; };
 		91E6D78C202F44D70007F384 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6D78B202F44D70007F384 /* APIClient.swift */; };
 		91E6D78E202F57210007F384 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6D78D202F57210007F384 /* Endpoint.swift */; };
+		91E6D790202F5AC30007F384 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6D78F202F5AC30007F384 /* WeatherAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		91E6D789202F3D480007F384 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		91E6D78B202F44D70007F384 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		91E6D78D202F57210007F384 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		91E6D78F202F5AC30007F384 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				91E6D78B202F44D70007F384 /* APIClient.swift */,
 				91E6D789202F3D480007F384 /* Weather.swift */,
 				91E6D78D202F57210007F384 /* Endpoint.swift */,
+				91E6D78F202F5AC30007F384 /* WeatherAPIClient.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E6D790202F5AC30007F384 /* WeatherAPIClient.swift in Sources */,
 				91E6D787202F36AD0007F384 /* WeatherTableViewController.swift in Sources */,
 				91E6D78A202F3D480007F384 /* Weather.swift in Sources */,
 				91E6D763202F35550007F384 /* AppDelegate.swift in Sources */,
