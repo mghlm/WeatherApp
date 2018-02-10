@@ -32,12 +32,12 @@ enum WeatherEndpoint: Endpoint {
     case tenDayForecast(city: String, state: String)
     
     var baseUrl: String {
-        return "http://api.wunderground.com/api"
+        return "https://api.wunderground.com"
     }
     var path: String {
         switch self {
         case .tenDayForecast(let city, let state):
-            return "http://api.wunderground.com/api/f9111d7519d659fc/forecast10day/q/\(state)/\(city).json"
+            return "/api/f9111d7519d659fc/forecast10day/q/\(state)/\(city).json"
         }
     }
     

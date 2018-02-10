@@ -9,9 +9,7 @@
 import Foundation
 
 class Weather: Codable {
-    
     let forecast: Forecast
-    
 }
 
 struct Forecast: Codable {
