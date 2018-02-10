@@ -13,7 +13,6 @@ class WeatherTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
     }
 
     // MARK: - Table view data source
@@ -25,7 +24,7 @@ class WeatherTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherCell", for: indexPath)
 
         // Configure the cell...
 
