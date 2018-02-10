@@ -40,6 +40,6 @@ struct ForecastDay: Codable {
     private enum CodingKeys: String, CodingKey {
         case iconUrl = "icon_url"
         case day = "title"
-        case decription = "fcttext"
+        case description = "fcttext"
     }
 }
